@@ -1,0 +1,22 @@
+.number-counter {
+  color: #707070;
+  text-align: center;
+  float: left;
+  margin: 20px;
+}
+
+.tweets {
+  color: #0084b4;
+}
+
+.likes {
+  color: #3b5998;
+}
+
+.pins {
+  color: #cb2027;
+}
+
+.count {
+  font-size: 30px;
+}

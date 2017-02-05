@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Number Counter with Ember Component</title>
+  <link rel="stylesheet" href="https://rawgithub.com/emberjs/starter-kit/v1.0.0/css/normalize.css">
+</head>
+<body>
+  
+  <script type="text/x-handlebars">
+    {{number-counter duration=100 content=content item="likes"}}
+    {{number-counter duration=150 content=content item="tweets"}}
+    {{number-counter duration=200 content=content item="pins"}}
+  </script>
+  
+  <script type="text/x-handlebars" id="components/number-counter">
+    <div {{bindAttr class="item :count"}}>{{count}}</div>
+    <label>{{item}}</label>
+  </script>
+
+  <script src="https://rawgithub.com/emberjs/starter-kit/v1.0.0/js/libs/jquery-1.9.1.js"></script>
+  <script src="https://rawgithub.com/emberjs/starter-kit/v1.0.0/js/libs/handlebars-1.0.0.js"></script>
+  <script src="https://rawgithub.com/emberjs/starter-kit/v1.0.0/js/libs/ember-1.0.0.js"></script>
+</body>
+</html>
