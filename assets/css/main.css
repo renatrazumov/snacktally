@@ -1,11 +1,15 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+@import "https://fonts.googleapis.com/css?family=Tangerine"
+
 
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+/* Style */
 
 /* Reset */
 
@@ -15,6 +19,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
+		font-family: 'hot-pizza'
 		vertical-align: baseline;
 	}
 
@@ -1644,12 +1649,12 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #00cecf;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -2018,7 +2023,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #00CECF;
+			background-color: #8cc9f0;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -2028,7 +2033,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #00CECF;
+				background-color: #9acff2;
 			}
 
 			input[type="submit"].special:active,
@@ -2036,7 +2041,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #00CECF;
+				background-color: #7ec3ee;
 			}
 
 			input[type="submit"].special.icon:before,
